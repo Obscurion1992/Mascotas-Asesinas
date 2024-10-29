@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Rubik+Glitch&display=swap');
+@import url(header.css);
+@import url(banner.css);
+@import url(conceptos.css);
+@import url(bienvenidos.csss);
+@import url(info.css);
+@import url(footer.css);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body{
+  background-color:rgb(53, 14, 14);
+}
+
+.contenedor{
+  margin: auto;
+  width: 98%;
+}
+section{
+  margin-bottom: 20px;
+  
+}
+#bienvenidos{
+  text-align: center;
+}
+h1{
+  float: left;
+}
+          
+video#defondo{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -1;
+}
+
+@media(min-width:1024px){
+  .contenedor{
+    width: 1000px;
+  }
+}
